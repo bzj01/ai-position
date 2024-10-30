@@ -14,3 +14,9 @@ with col1:
     flag1 = st.button("绘图",use_container_width=True)
     if flag1:
         st.switch_page("pages/textToImage.py")
+
+with col1:
+    st.image("https://d00.paixin.com/thumbs/1742172/20214169/staff_1024.jpg",use_column_width=True)
+    flag1 = st.button("说岗",use_container_width=True)
+    if flag1:
+        st.switch_page("pages/job-demo.py")
