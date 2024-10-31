@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("AI大模型应用产品网")
 
-col,col1 = st.columns(2)
+col,col1,col2 = st.columns(3)
 with col:
     st.image("https://d00.paixin.com/thumbs/1742172/20214169/staff_1024.jpg",use_column_width=True)
     flag = st.button("说道",use_container_width=True)
@@ -15,7 +15,7 @@ with col1:
     if flag1:
         st.switch_page("pages/textToImage.py")
 
-with col1:
+with col2:
     st.image("https://d00.paixin.com/thumbs/1742172/20214169/staff_1024.jpg",use_column_width=True)
     flag1 = st.button("说岗",use_container_width=True)
     if flag1:
